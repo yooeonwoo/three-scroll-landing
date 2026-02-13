@@ -9,10 +9,10 @@ app.innerHTML = `
   <header class="header">
     <div class="brand"><span class="brandDot"></span><span>BIOFOX</span></div>
     <nav class="nav">
-      <a href="#s1">Intro</a>
-      <a href="#s2">System</a>
-      <a href="#s3">Detail</a>
-      <a href="#s4">Build</a>
+      <a href="#s1">Science → Product</a>
+      <a href="#s2">Mist</a>
+      <a href="#s3">Before/After</a>
+      <a href="#s4">Interact</a>
     </nav>
   </header>
 
@@ -20,25 +20,22 @@ app.innerHTML = `
     <section id="s1" class="section">
       <div class="sectionInner">
         <div>
-          <div class="kicker">3D Scroll Landing</div>
-          <div class="h1">High‑end
-          <br/>Interactive
-          <br/>Motion.</div>
-          <div class="sub">A premium, scroll-driven three.js experience: cinematic lighting, subtle particles, and smooth camera choreography. Built for product‑grade landing pages.</div>
+          <div class="kicker">BIOFOX • Scroll Experience</div>
+          <div class="h1">Biology
+          <br/>→ Product
+          <br/>Formation</div>
+          <div class="sub">DNA/RNA-like structures gather while you scroll—then converge into a premium “Cure Booster” bottle. No external assets: everything is procedural so it loads fast.</div>
           <div class="divider"></div>
-          <span class="pill"><span class="pillDot"></span>GSAP ScrollTrigger • Postprocessing • Responsive</span>
+          <span class="pill"><span class="pillDot"></span>three.js • GSAP ScrollTrigger • Mobile-first perf</span>
         </div>
 
         <div class="card">
-          <div class="cardTitle">Highlights</div>
+          <div class="cardTitle">Beat 01</div>
           <ul class="cardList">
-            <li><span>✦</span><span>Scroll‑timed camera path + object beats</span></li>
-            <li><span>✦</span><span>Procedural studio environment lighting (no external HDR)</span></li>
-            <li><span>✦</span><span>Bloom + vignette + film grain (subtle)</span></li>
-            <li><span>✦</span><span>Performance clamp for pixel ratio & adaptive effects</span></li>
+            <li><span>✦</span><span>Scientific particles → controlled convergence</span></li>
+            <li><span>✦</span><span>Lux lighting + glass/metal materials</span></li>
+            <li><span>✦</span><span>Scroll authored like a luxury ad</span></li>
           </ul>
-          <div class="divider"></div>
-          <div class="small">Tip: try slow scrolling. The motion is authored like a luxury ad—tight, controlled, and purposeful.</div>
         </div>
       </div>
     </section>
@@ -47,17 +44,17 @@ app.innerHTML = `
       <div class="sectionInner">
         <div>
           <div class="kicker">Section 02</div>
-          <div class="h1">Studio
-          <br/>Lighting
-          <br/>System.</div>
-          <div class="sub">A procedural environment + layered key/fill/rim setup gives a high‑end look. Materials are tuned for glossy metal and glass—without external assets.</div>
+          <div class="h1">Cap
+          <br/>Open
+          <br/>Mist Spray</div>
+          <div class="sub">The bottle rotates, the cap lifts, and a mist burst fills the frame with a realistic particle spray. The motion is scroll-timed, not autoplay.</div>
         </div>
         <div class="card">
-          <div class="cardTitle">What you’re seeing</div>
+          <div class="cardTitle">Beat 02</div>
           <ul class="cardList">
-            <li><span>•</span><span>Metal ring with anisotropic-like highlights</span></li>
-            <li><span>•</span><span>Glass orb with subtle dispersion feel</span></li>
-            <li><span>•</span><span>Neon accent rim + micro particles</span></li>
+            <li><span>•</span><span>Scroll controls cap lift + spray intensity</span></li>
+            <li><span>•</span><span>Additive particles + soft sprite (procedural)</span></li>
+            <li><span>•</span><span>Adaptive quality clamp on mobile</span></li>
           </ul>
         </div>
       </div>
@@ -67,17 +64,17 @@ app.innerHTML = `
       <div class="sectionInner">
         <div>
           <div class="kicker">Section 03</div>
-          <div class="h1">Precision
-          <br/>Motion
-          <br/>Beats.</div>
-          <div class="sub">Scroll controls the timeline. Each section triggers a deliberate beat: orbit, push‑in, tilt, and reveal. The motion curves are eased, not robotic.</div>
+          <div class="h1">Cells
+          <br/>Touch
+          <br/>→ Improve</div>
+          <div class="sub">Regenerative “cells” ride the mist and touch a troubled skin visual. As they contact, redness fades into a calmer after-state via a masked transition.</div>
         </div>
         <div class="card">
-          <div class="cardTitle">Interaction</div>
+          <div class="cardTitle">Beat 03</div>
           <ul class="cardList">
-            <li><span>•</span><span>Pointer adds subtle parallax</span></li>
-            <li><span>•</span><span>Particles respond to scroll velocity</span></li>
-            <li><span>•</span><span>Post FX adapts for performance</span></li>
+            <li><span>•</span><span>Before/After reveal shader (no heavy images)</span></li>
+            <li><span>•</span><span>Contact-driven mask expansion</span></li>
+            <li><span>•</span><span>Clean, premium pacing</span></li>
           </ul>
         </div>
       </div>
@@ -87,20 +84,16 @@ app.innerHTML = `
       <div class="sectionInner">
         <div>
           <div class="kicker">Section 04</div>
-          <div class="h1">Ship
-          <br/>Ready
-          <br/>Now.</div>
-          <div class="sub">This project is a clean Vite setup. Drop in your own copy, brand palette, and model. The choreography stays. The result looks expensive.</div>
+          <div class="h1">Full‑Screen
+          <br/>Spray
+          <br/>& Interact</div>
+          <div class="sub">A final large-scale spray forms “BIOFOX”. Remaining particles float—tap/click to open an SNS link. (Currently wired to Instagram placeholder.)</div>
         </div>
         <div class="card">
-          <div class="cardTitle">Run</div>
-          <div class="small">
-            <code>npm install</code><br/>
-            <code>npm run dev</code><br/>
-            <code>npm run build</code>
-          </div>
+          <div class="cardTitle">Interaction</div>
+          <div class="small">Try clicking floating particles in the last scene.</div>
           <div class="divider"></div>
-          <div class="small">If you want: I can swap in your product model, brand typography, and copy blocks.</div>
+          <div class="small">Next: swap in real product photos/logo/copy anytime.</div>
         </div>
       </div>
     </section>
